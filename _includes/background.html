@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="/assets/css/home.css" />
+<div id="animated-background"></div>
+<script src="/assets/js/three.r95.min.js"></script>
+<script src="/assets/js/vanta.rings.min.js"></script>
+<script>
+  const navbar = document.getElementsByClassName('navbar').item(0);
+  const bg = window.getComputedStyle(document.body).backgroundColor;
+  console.log(bg);
+  VANTA.RINGS({
+    el: "#animated-background",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: window.innerHeight - navbar.getBoundingClientRect().height,
+    minWidth: 200,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: bg,
+    color: 0x73ba25
+  })
+</script>

@@ -8,6 +8,12 @@
   opacity: 0.5;
 }
 
+#typewriter {
+  font-family: 'Source Code Pro', monospace;
+  text-transform: lowercase;
+  min-height: 6em;
+}
+
 .distro-logo {
   display: block;
   margin: auto;
