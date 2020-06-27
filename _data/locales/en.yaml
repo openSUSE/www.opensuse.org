@@ -1,0 +1,17 @@
+site_description: The makers' choice for sysadmins, developers and desktop users.
+site_copyright: © 2011-2020 openSUSE contributors
+
+search: Search
+translate: Translate
+
+privacy: Privacy
+license: License
+source_code: Source Code
+
+tumbleweed_summary: Get the newest Linux packages with our rolling release. Fast! Integrated! Stabilized! Tested!
+leap_summary: Get the most complete Linux distribution with openSUSE’s latest regular-release version!
+kubic_summary: Certified Kubernetes distribution & container-related technologies built by the openSUSE community
+
+download_tumbleweed: Download Tumbleweed
+download_leap: Download Leap %1
+learn_about_kubic: Learn about Kubic
