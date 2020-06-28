@@ -2,6 +2,8 @@
 
 2020 new design
 
+![screenshot](screenshot.png)
+
 ## Development
 
 ### How to set up environment?
@@ -25,4 +27,4 @@ Resulting site will be in `_site` directory.
 bundle exec jekyll serve
 ```
 
-Visit <http://127.0.0.1:4000/> in your browser.
+Visit <http://localhost:4000/> in your browser.

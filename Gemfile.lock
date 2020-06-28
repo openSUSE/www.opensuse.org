@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/opensuse/jekyll-theme.git
-  revision: 46f19888d54bb673190de28f89a0c29a073ebd24
+  revision: 2c775f017f3e0fbbb25916edcb589c888a7ac91e
   branch: l10n-feat
   specs:
     jekyll-theme-opensuse (0.6.1)
