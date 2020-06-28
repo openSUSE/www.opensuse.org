@@ -15,3 +15,9 @@ kubic_summary: 由 openSUSE 社区构建的经过认证的 Kubernetes 分发和�
 download_tumbleweed: 下载 Tumbleweed
 download_leap: 下载 Leap %1
 learn_about_kubic: 了解 Kubic
+
+tools_title: 探索我们社区开发的、最好的开源工具
+obs_summary: 我们的构建工具，构建了我们的全部软件包，以及 SUSE Linux Enterprise、Arch、Debian、Fedora、Scientific Linux、RHEL、CentOS、Ubuntu 甚至更多发行版的部分软件包。
+oqa_summary: 自动测试任何操作系统，可以像用户那样阅读屏幕和控制测试用主机。
+yast_summary: 最好的、唯一的综合性 Linux 系统配置和安装工具。
+kiwi_summary: 构建用于实体硬件，虚拟机和 Docker 容器的 Linux 镜像。Kiwi 是构建 openSUSE 发行版镜像的工具引擎。
