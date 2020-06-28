@@ -21,3 +21,5 @@ obs_summary: 我们的构建工具，构建了我们的全部软件包，以及 
 oqa_summary: 自动测试任何操作系统，可以像用户那样阅读屏幕和控制测试用主机。
 yast_summary: 最好的、唯一的综合性 Linux 系统配置和安装工具。
 kiwi_summary: 构建用于实体硬件，虚拟机和 Docker 容器的 Linux 镜像。Kiwi 是构建 openSUSE 发行版镜像的工具引擎。
+
+news_title: 新闻

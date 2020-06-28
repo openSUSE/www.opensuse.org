@@ -21,3 +21,5 @@ obs_summary: Our build tool, building all of our packages as well as ones for SU
 oqa_summary: Automated testing for *any* operating system, that can read the screen and control the test host the same way a user does.
 yast_summary: The best/only comprehensive Linux system configuration & installation tool.
 kiwi_summary: Create Linux images for deployment on real hardware, virtualisation, and now even container systems like Docker. Kiwi is the engine that builds the openSUSE release images.
+
+news_title: News
