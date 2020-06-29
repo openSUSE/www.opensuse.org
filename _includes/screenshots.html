@@ -1,22 +1,12 @@
-<section id="screenshots" class="my-5">
-  <div class="container">
-    <div id="screenshot-wrap">
-      <img class="d-block w-100" src="/assets/images/laptop.svg" />
-      <div id="screenshot-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
-        <ol class="carousel-indicators">
-          {% for counter in (0..5) %}
-          <li data-target="#screenshot-carousel" data-slide-to="{{ counter }}"
-            class="{% if counter == 0 %}active{% endif %}"></li>
-          {% endfor %}
-        </ol>
-        <div class="carousel-inner">
-          {% for counter in (1..6) %}
-          <div class="carousel-item {% if counter == 1 %}active{% endif %}">
-            <img src="/assets/images/screenshot-{{ counter }}.png" class="d-block w-100">
-          </div>
-          {% endfor %}
-        </div>
+<div id="screenshot-wrap">
+  <img class="d-block w-100" src="/assets/images/laptop.svg" />
+  <div id="screenshot-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
+    <div class="carousel-inner">
+      {% for counter in (1..6) %}
+      <div class="carousel-item {% if counter == 1 %}active{% endif %}">
+        <img src="/assets/images/screenshot-{{ counter }}.png" class="d-block w-100">
       </div>
+      {% endfor %}
     </div>
   </div>
-</section>
+</div>

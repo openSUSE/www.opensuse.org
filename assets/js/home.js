@@ -1,12 +1,13 @@
 // News
 (function () {
-  const flow = document.getElementById('news-flow');
+  const grid = document.getElementById('news-grid');
 
   function getItemData(element) {
     const data = {};
     for (let i = 0; i < element.children.length; i++) {
-      const name = element.children[i].tagName;
-      const value = element.children[i].textContent;
+      const child = element.children[i];
+      const name = child.tagName;
+      const value = child.textContent || child.getAttribute('url') || '';
       data[name] = value.trim();
     }
     return data;
@@ -14,15 +15,10 @@
 
   function insertCard(data, index) {
     const card = document.createElement('div');
-    card.className = 'col-sm-6 col-md-4 col-lg-3 mb-5';
-    if (index === 8) {
-      card.classList.add('d-none', 'd-md-block', 'd-lg-none');
-    } else if (index === 9) {
-      card.classList.add('d-none');
-    }
+    card.className = 'grid-item';
     card.innerHTML = `
       <a class="card" href="${data.link}">
-        <img src="https://news.opensuse.org/wp-content/uploads/2020/06/libreofficeos.png" class="card-img-top" alt="...">
+        <img src="https://news.opensuse.org${data.enclosure}" class="card-img-top bg-light" alt="...">
         <div class="card-body">
           <h5 class="card-title">${data.title}</h5>
         </div>
@@ -31,7 +27,7 @@
         </footer>
       </a>
     `;
-    flow.append(card);
+    grid.append(card);
   }
 
   fetch('https://news.opensuse.org/feed.xml').then(function (res) {
@@ -45,5 +41,14 @@
       const itemData = getItemData(itemElement);
       insertCard(itemData, i);
     }
+    const msnry = new Masonry(grid, {
+      itemSelector: '.grid-item',
+      columnWidth: '.grid-sizer',
+      percentPosition: true,
+      gutter: 20
+    });
+    imagesLoaded(grid).on('progress', function () {
+      msnry.layout();
+    });
   });
 })();

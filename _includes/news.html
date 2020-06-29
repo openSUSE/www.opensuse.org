@@ -1,7 +1,12 @@
-<section id="news">
+<section id="news" class="py-5">
   <div class="container">
-    <h2 class="text-center">{{ locale.news_title }}</h2>
-    <div id="news-flow" class="row">
+    <h1 class="text-center">{{ locale.news_title }}</h1>
+    <p class="text-center mb-3">{{ locale.news_description }}</p>
+    <div id="news-grid" class="grid">
+      <div class="grid-sizer"></div>
+    </div>
+    <div class="text-center">
+      <a class="btn btn-secondary" href="https://news.opensuse.org/">{{ locale.more_news }}</a>
     </div>
   </div>
 </section>

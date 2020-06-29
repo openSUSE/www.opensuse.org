@@ -1,28 +1,8 @@
-#animated-background,
-#animated-background canvas {
-  position: fixed !important;
-  width: 100%;
-  height: calc(100vh - 3.5rem - 2px);
-  top: calc(3.5rem + 2px) !important;
-  z-index: -1 !important;
-  opacity: 0.5;
-}
-
-#typewriter {
-  font-family: 'Source Code Pro', monospace;
-  text-transform: lowercase;
-  min-height: 6em;
-}
-
-.distro-logo {
-  display: block;
-  margin: auto;
-  width: 4rem;
-  height: 4rem;
-}
-
 #screenshot-wrap {
   position: relative;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #screenshot-carousel {
@@ -31,6 +11,13 @@
   height: auto;
   left: 8.3333%;
   top: 7.0175%;
+}
+
+.distro-logo {
+  display: block;
+  margin: auto;
+  width: 4rem;
+  height: 4rem;
 }
 
 .tool-logo {
@@ -43,10 +30,21 @@ a.card {
   text-decoration: none;
 }
 
-#news .card {
-  height: 18em;
+#news .grid-item,
+#news .grid-sizer {
+  margin-bottom: 20px;
 }
 
-#news .card-body {
-  overflow: hidden;
+@media screen and (min-width: 768px) {
+  #news .grid-item,
+  #news .grid-sizer {
+    width: calc(50% - 10px);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #news .grid-item,
+  #news .grid-sizer {
+    width: calc(33.3333% - 13.4px);
+  }
 }

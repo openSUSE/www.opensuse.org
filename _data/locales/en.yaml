@@ -16,10 +16,13 @@ download_tumbleweed: Download Tumbleweed
 download_leap: Download Leap %1
 learn_about_kubic: Learn about Kubic
 
-tools_title: Discover the best open-source tools developed by our community
+tools_title: Tools
+tools_description: Discover the best open-source tools developed by our community
 obs_summary: Our build tool, building all of our packages as well as ones for SUSE Linux Enterprise, Arch, Debian, Fedora, Scientific Linux, RHEL, CentOS, Ubuntu, and more.
 oqa_summary: Automated testing for *any* operating system, that can read the screen and control the test host the same way a user does.
 yast_summary: The best/only comprehensive Linux system configuration & installation tool.
-kiwi_summary: Create Linux images for deployment on real hardware, virtualisation, and now even container systems like Docker. Kiwi is the engine that builds the openSUSE release images.
+kiwi_summary: Create Linux images for deployment on real hardware, virtualisation, and even container systems like Docker.
 
 news_title: News
+news_description: Everyday we are making openSUSE the best free and open source project
+more_news: More news...
