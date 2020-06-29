@@ -26,3 +26,7 @@ kiwi_summary: 构建用于实体硬件，虚拟机和 Docker 容器的 Linux 镜
 news_title: 新闻
 news_description: 关注 openSUSE 项目的所有重要动态
 more_news: 更多新闻...
+
+events_title: 活动
+events_description: 精彩活动即将到来。立刻加入我们！
+event_participate: 参加
