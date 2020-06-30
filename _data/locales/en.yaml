@@ -8,9 +8,9 @@ privacy: Privacy
 license: License
 source_code: Source Code
 
-tumbleweed_summary: Get the newest Linux packages with our rolling release. Fast! Integrated! Stabilized! Tested!
-leap_summary: Get the most complete Linux distribution with openSUSE’s latest regular-release version!
-kubic_summary: Certified Kubernetes distribution & container-related technologies built by the openSUSE community
+tumbleweed_description: Get the newest Linux packages with our rolling release. Fast! Integrated! Stabilized! Tested!
+leap_description: Get the most complete Linux distribution with openSUSE’s latest regular-release version!
+kubic_description: Certified Kubernetes distribution & container-related technologies built by the openSUSE community
 
 download_tumbleweed: Download Tumbleweed
 download_leap: Download Leap %1
@@ -18,10 +18,10 @@ learn_about_kubic: Learn about Kubic
 
 tools_title: Tools
 tools_description: Discover the best open-source tools developed by our community
-obs_summary: Our build tool, building all of our packages as well as ones for SUSE Linux Enterprise, Arch, Debian, Fedora, Scientific Linux, RHEL, CentOS, Ubuntu, and more.
-oqa_summary: Automated testing for *any* operating system, that can read the screen and control the test host the same way a user does.
-yast_summary: The best/only comprehensive Linux system configuration & installation tool.
-kiwi_summary: Create Linux images for deployment on real hardware, virtualisation, and even container systems like Docker.
+obs_description: Our build tool, building all of our packages as well as ones for SUSE Linux Enterprise, Arch, Debian, Fedora, Scientific Linux, RHEL, CentOS, Ubuntu, and more.
+oqa_description: Automated testing for *any* operating system, that can read the screen and control the test host the same way a user does.
+yast_description: The best/only comprehensive Linux system configuration & installation tool.
+kiwi_description: Create Linux images for deployment on real hardware, virtualisation, and even container systems like Docker.
 
 news_title: News
 news_description: Follow all important updates of the openSUSE project
@@ -30,3 +30,10 @@ more_news: More news...
 events_title: Events
 events_description: Something exciting is coming. Join us now!
 event_participate: Participate
+
+contribute_title: Contribute
+contribute_description: Report bugs, submit code, help translate and promote
+bugzilla_description: Report bugs or request features of openSUSE distributions, packages and services.
+github_description: Contribute code to openSUSE tools and websites with the help from our friendly community.
+weblate_description: Translate openSUSE applications, documentations and websites into your languages.
+wiki_description: Write guides for other users and contributors on the MediaWiki collaboration platform.

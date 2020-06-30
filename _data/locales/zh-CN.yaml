@@ -8,9 +8,9 @@ privacy: 隐私
 source_code: 源码
 license: 许可
 
-tumbleweed_summary: 安装我们的滚动版本，获取最新 Linux 软件包。 日新月异！整合如一！坚如磐石！久经检验！
-leap_summary: 安装 openSUSE 最新的常规发布版本，获取最完整的 Linux 发行版体验！
-kubic_summary: 由 openSUSE 社区构建的经过认证的 Kubernetes 分发和与容器相关的技术
+tumbleweed_description: 安装我们的滚动版本，获取最新 Linux 软件包。 日新月异！整合如一！坚如磐石！久经检验！
+leap_description: 安装 openSUSE 最新的常规发布版本，获取最完整的 Linux 发行版体验！
+kubic_description: 由 openSUSE 社区构建的经过认证的 Kubernetes 分发和与容器相关的技术
 
 download_tumbleweed: 下载 Tumbleweed
 download_leap: 下载 Leap %1
@@ -18,10 +18,10 @@ learn_about_kubic: 了解 Kubic
 
 tools_title: 工具
 tools_description: 探索我们社区开发的、最好的开源工具
-obs_summary: 我们的构建工具，构建了我们的全部软件包，以及 SUSE Linux Enterprise、Arch、Debian、Fedora、Scientific Linux、RHEL、CentOS、Ubuntu 甚至更多发行版的部分软件包。
-oqa_summary: 自动测试任何操作系统，可以像用户那样阅读屏幕和控制测试用主机。
-yast_summary: 最好的、唯一的综合性 Linux 系统配置和安装工具。
-kiwi_summary: 构建用于实体硬件，虚拟机和 Docker 容器的 Linux 镜像。
+obs_description: 我们的构建工具，构建了我们的全部软件包，以及 SUSE Linux Enterprise、Arch、Debian、Fedora、Scientific Linux、RHEL、CentOS、Ubuntu 甚至更多发行版的部分软件包。
+oqa_description: 自动测试任何操作系统，可以像用户那样阅读屏幕和控制测试用主机。
+yast_description: 最好的、唯一的综合性 Linux 系统配置和安装工具。
+kiwi_description: 构建用于实体硬件，虚拟机和 Docker 容器的 Linux 镜像。
 
 news_title: 新闻
 news_description: 关注 openSUSE 项目的所有重要动态
@@ -30,3 +30,10 @@ more_news: 更多新闻...
 events_title: 活动
 events_description: 精彩活动即将到来。立刻加入我们！
 event_participate: 参加
+
+contribute_title: 贡献
+contribute_description: 汇报 BUG，提交代码，帮助翻译和推广
+bugzilla_description: 为发行版，软件包和在线服务汇报 BUG 或者功能需求。
+github_description: 为 openSUSE 工具和网站贡献代码。
+weblate_description: 翻译 openSUSE 应用 UI，文档和网站。
+wiki_description: 撰写指南帮助其他用户和贡献者。
