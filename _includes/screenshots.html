@@ -1,10 +1,10 @@
 <div id="screenshot-wrap">
-  <img class="d-block w-100" src="/assets/images/laptop.svg" />
+  <img class="d-block w-100" src="/assets/images/laptop.svg" width="960" height="570" />
   <div id="screenshot-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
     <div class="carousel-inner">
       {% for counter in (1..6) %}
       <div class="carousel-item {% if counter == 1 %}active{% endif %}">
-        <img src="/assets/images/screenshot-{{ counter }}.png" class="d-block w-100">
+        <img src="/assets/images/screenshot-{{ counter }}.png" width="1366" height="768" class="d-block w-100">
       </div>
       {% endfor %}
     </div>
